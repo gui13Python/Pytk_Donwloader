@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PyTK Downloader — baixe músicas e vídeos do YouTube</title>
+<meta name="description" content="Baixe músicas em MP3 e vídeos em MP4 do YouTube, com playlists inteiras e escolha de qualidade. Teste grátis ou versão PRO sem limites.">
+<link rel="icon" href="songs_audio_music_6074.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#topo" class="logo">PyTK <span>Downloader</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#recursos">Recursos</a>
+      <a href="#comparar">Teste ou PRO</a>
+      <a href="#baixar" class="nav-cta">Baixar</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="topo">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <h1>Suas músicas e vídeos do YouTube, prontos pra ouvir offline</h1>
+        <p class="hero-sub">Cole o link ou digite o nome da música. O PyTK Downloader baixa em MP3 ou MP4, playlist inteira se quiser, e organiza tudo numa pasta pra você.</p>
+        <div class="hero-actions">
+          <a href="#baixar" class="btn btn-primary">Baixar versão de teste</a>
+          <a href="#comparar" class="btn btn-ghost">Ver o que muda no PRO</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="app-window">
+          <div class="app-titlebar">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="app-title">PyTK Downloader</span>
+          </div>
+          <div class="app-body">
+            <div class="app-row">
+              <span class="app-chip app-chip-on">MP3</span>
+              <span class="app-chip">MP4</span>
+            </div>
+            <div class="app-input">ytsearch: bruno e marrone</div>
+            <div class="equalizer">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="recursos">
+    <div class="wrap">
+      <h2>O que o programa faz</h2>
+      <ul class="features-grid">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>MP3 ou MP4, sua escolha</h3>
+          <p>Baixe só o áudio pra ouvir no caminho, ou o vídeo completo — o programa cuida da conversão sozinho.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <h3>Playlists inteiras de uma vez</h3>
+          <p>Cole o link de uma playlist e o PyTK Downloader baixa cada faixa, sem precisar repetir o processo música por música.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5v4.5l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Escolha a qualidade</h3>
+          <p>320kbps ou 128kbps no áudio, 1080p até 360p no vídeo — você decide o equilíbrio entre qualidade e tamanho do arquivo.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 9h8M8 13h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <h3>Nada pra instalar por fora</h3>
+          <p>Todas as ferramentas que o programa usa por trás já vêm junto no instalador. Você abre e já usa.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Busca por nome ou link</h3>
+          <p>Não precisa nem procurar no YouTube antes — digite o nome do artista ou da música e o programa acha pra você.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 20h16M6 20V10l6-5 6 5v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Abre a pasta sozinho</h3>
+          <p>Quando o download termina, a pasta com os arquivos já abre automaticamente na sua tela.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="compare" id="comparar">
+    <div class="wrap">
+      <h2>Teste grátis ou versão completa</h2>
+      <p class="compare-sub">Dá pra experimentar sem gastar nada antes de decidir. A diferença é só no tanto que você pode baixar.</p>
+
+      <div class="compare-table-wrap">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th scope="col" class="col-feature">Recurso</th>
+              <th scope="col" class="col-teste">Teste</th>
+              <th scope="col" class="col-pro">PRO</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Formato MP3 e MP4</th>
+              <td><span class="tick">Sim</span></td>
+              <td><span class="tick">Sim</span></td>
+            </tr>
+            <tr>
+              <th scope="row">Playlist inteira</th>
+              <td><span class="tick">Sim</span></td>
+              <td><span class="tick">Sim</span></td>
+            </tr>
+            <tr>
+              <th scope="row">Escolher qualidade (bitrate/resolução)</th>
+              <td><span class="tick">Sim</span></td>
+              <td><span class="tick">Sim</span></td>
+            </tr>
+            <tr>
+              <th scope="row">Downloads</th>
+              <td>3 downloads</td>
+              <td class="highlight">Ilimitados</td>
+            </tr>
+            <tr>
+              <th scope="row">Validade</th>
+              <td>5 dias</td>
+              <td class="highlight">Sem prazo</td>
+            </tr>
+            <tr>
+              <th scope="row">Aviso de versão de teste na tela</th>
+              <td>Sim</td>
+              <td class="highlight">Não</td>
+            </tr>
+            <tr>
+              <th scope="row">Preço</th>
+              <td>Grátis</td>
+              <td class="highlight price-pro">R$ 39,90</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="compare-cta">
+        <a href="#baixar" class="btn btn-ghost">Baixar o Teste</a>
+        <a href="https://pytksolutions.com.br" class="btn btn-primary btn-pro">Comprar o PRO</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="download" id="baixar">
+    <div class="wrap download-inner">
+      <h2>Pronto pra testar?</h2>
+      <p>Baixe agora, sem cadastro e sem cartão. O teste já baixa em qualidade real, só limita a quantidade.</p>
+      <a href="#" class="btn btn-primary btn-lg">Baixar PyTK Downloader — Teste grátis</a>
+      <p class="download-note">Windows 8 ou superior · nada de Python ou ffmpeg pra instalar por fora</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>PyTK Solutions</span>
+    <a href="https://pytksolutions.com.br">pytksolutions.com.br</a>
+    <span class="copyright">© 2026 PyTK Solutions</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
